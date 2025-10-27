@@ -109,7 +109,7 @@ END;
 
 ## 🙌 Contributors
 
-- **Akshdeep Singh** – Database design, SQL scripting, testing
+- **Urja Sahni** – Database design, SQL scripting, testing
 
 ---
 
@@ -119,7 +119,6 @@ END;
 |-------------------|-----------------------------------------------------|
 | `create_tables.sql` | Contains all table creation statements (DDL)     |
 | `insert_data.sql`   | Sample data insertions into all tables (DML)     |
-| `queries.sql`       | SQL SELECT queries for analytics and reporting   |
 | `procedures.sql`    | Stored procedures for reusable operations        |
 | `functions.sql`     | User-defined functions including late fee calc   |
 | `triggers.sql`      | Triggers to automate logging and return actions  |
