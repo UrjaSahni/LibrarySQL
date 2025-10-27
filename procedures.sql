@@ -48,16 +48,4 @@ CREATE OR REPLACE PROCEDURE generate_report (
 IS
     VALUES (p_reg_id, p_user_id, p_book_no, p_issue_date, p_staff_id);
 
-5️⃣ fetch_issued_books_cursor
-CREATE OR REPLACE PROCEDURE fetch_issued_books_cursor
-IS
-    CURSOR issued_books_cursor IS
-        FROM issue i
-        INNER JOIN Books b ON i.pkb = b.Auth_No
-        INNER JOIN Readers r ON i.pkr = r.User_id;
 
-6️⃣ fetch_staff_details_cursor
-CREATE OR REPLACE PROCEDURE fetch_staff_details_cursor
-IS
-    CURSOR staff_cursor IS
-        FROM Staff;
